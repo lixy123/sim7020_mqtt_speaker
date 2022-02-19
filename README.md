@@ -15,8 +15,8 @@
 ESP32 语音合成播报模块<br>
 5V/3.3V  --  VIN<br>
 GND      --  GND<br>
-13       --  SDA<br>
-12       --  SCL  <br>
+22       --  SDA<br>
+23       --  SCL  <br>
 <br>
  <img src= 'https://github.com/lixy123/sim7020_mqtt_speaker/blob/main/mqtt_speaker1.jpg?raw=true' /><br>
  <img src= 'https://github.com/lixy123/sim7020_mqtt_speaker/blob/main/mqtt_speaker2.jpg?raw=true' /><br>
