@@ -4,6 +4,7 @@
     1.通过手机或网上自动化服务平台将文字信息用MQTT协议发送到本机器，并播放.<br>
     2.考虑到电池供电场景。设计了sleep指令，收到指令后定时休眠N分钟。唤醒状态后再重新返回工作状态.<br>
     3.安卓手机mqtt客户端可以用 iot controler<br>
+      注：iot controler 可以方便定制按钮触发mqtt信息发送和接收<br>
     4.网上触发mqtt平台可以用, https://ifttt.com/ <br>
       通过触发器 https://ifttt.com/ 能指定触发条件满足后发送MQTT,例如每日定时时间到，出现异常天气，收到邮件等<br>
 
