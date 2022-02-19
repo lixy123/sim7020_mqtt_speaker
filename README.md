@@ -16,7 +16,14 @@ ESP32 语音合成播报模块<br>
 GND      --  GND<br>
 13       --  SDA<br>
 12       --  SCL  <br>
-
+<br>
+ <img src= 'https://github.com/lixy123/sim7020_mqtt_speaker/blob/main/mqtt_speaker1.jpg?raw=true' /><br>
+ <img src= 'https://github.com/lixy123/sim7020_mqtt_speaker/blob/main/mqtt_speaker2.jpg?raw=true' /><br>
+ 
+演示视频地址<br>
+   https://github.com/lixy123/sim7020_mqtt_speaker/blob/main/mqtt_speaker.mp4?raw=true <br>
+   
+   
  <b>三.软件功能列表:</b><br>
   1.开机,自动连接MQTT<br>
   2.当收到MQTT，对播放，休眠指令进行对应的处理<br>
