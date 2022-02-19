@@ -250,7 +250,7 @@ bool connect_mqtt()
   while (true)
   {
     String out = Strhex_convert("online");
-    ret = send_at("AT+CMQPUB=0,\"" + mqtt_topic_resp + "\",1,0,0," + String(out.length()) + ",\"" + out + "\"", "", 5);
+    ret = send_at("AT+CMQPUB=0,\"" + mqtt_topic_resp + "\",1,0,0," + String(out.length()) + ",\"" + out + "\"", "OK", 5);
     Serial.println("ret=" + ret);
     if (ret.indexOf("OK") > -1)
       break;
@@ -711,7 +711,7 @@ void loop() {
                   cmd_text = String(ToxicSoul[soul_index]);
                 }
                 xfs.StartSynthesis(cmd_text);
-                delay(5000);
+                delay(500);
               }
               //休眠**分钟
               else  if (mqtt_receive.startsWith("sleep:"))
@@ -732,7 +732,7 @@ void loop() {
           //注：31323334, 代表1234
           String out = Strhex_convert("ok");
           //Serial.println("out=" + out);
-          String ret = send_at("AT+CMQPUB=0,\"" + mqtt_topic_resp + "\",1,0,0," + String(out.length()) + ",\"" + out + "\"", "", 5);
+          String ret = send_at("AT+CMQPUB=0,\"" + mqtt_topic_resp + "\",1,0,0," + String(out.length()) + ",\"" + out + "\"", "OK", 5);
           Serial.println("ret=" + ret);
         }
         //收到不是以上字串的数据，多半是网络中断
@@ -745,7 +745,7 @@ void loop() {
           net_connect_succ = false;
           mqtt_connect_succ = false;
         }
-        delay(2000);
+        delay(1000);
       }
     }
     else
