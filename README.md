@@ -12,10 +12,10 @@
   2.亚博智能 语音合成播报模块XFS5152芯片TTS开发板<br>
 
 ESP32 语音合成播报模块<br>
-5V/3.3V    VIN<br>
-GND        GND<br>
-13         SDA<br>
-12         SCL  <br>
+5V/3.3V  --  VIN<br>
+GND      --  GND<br>
+13       --  SDA<br>
+12       --  SCL  <br>
 
  <b>三.软件功能列表:</b><br>
   1.开机,自动连接MQTT<br>
