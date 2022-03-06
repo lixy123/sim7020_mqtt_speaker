@@ -20,7 +20,8 @@ GND      --  GND<br>
 <br>
  <img src= 'https://github.com/lixy123/sim7020_mqtt_speaker/blob/main/mqtt_speaker1.jpg?raw=true' /><br>
  <img src= 'https://github.com/lixy123/sim7020_mqtt_speaker/blob/main/mqtt_speaker2.jpg?raw=true' /><br>
- 
+ <img src= 'https://github.com/lixy123/sim7020_mqtt_speaker/blob/main/mqtt_speaker3.jpg?raw=true' /><br>
+  
 演示视频地址<br>
    https://github.com/lixy123/sim7020_mqtt_speaker/blob/main/mqtt_speaker.mp4?raw=true <br>
    
